@@ -1,6 +1,6 @@
 package com.oops;
 
-public class TaxCalculator2018 implements TaxCalculator{ // this is indicating that it is implementing the interface so every method in the inteface should be defined here
+public class TaxCalculator2018 implements TaxCalculator{ // this is indicating that it is implementing the interface so every method in the interface should be defined here
     private double taxableIncome;
 
     public TaxCalculator2018(double taxableIncome){
