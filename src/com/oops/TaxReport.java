@@ -4,9 +4,9 @@ package com.oops;
 // If our TaxCalculator class changes our report class might be affected
 // ex : what if we have multiple parameter in our taxCalculator , we have to modify all the classes that are dependent on TaxCalculator class
 public class TaxReport {
-    private TaxCalculator calculator;
+    private TaxCalculator2018 calculator;
     public TaxReport(){
-        calculator = new TaxCalculator(100000);
+        calculator = new TaxCalculator2018(100000);
     }
     public void show(){
         var tax = calculator.calculateTax();
